@@ -6,7 +6,9 @@ sudo pip install grab
 sudo apt-get install apache2
 mkdir -p /dev/shm/images
 sudo ln -s /dev/shm/images /var/www/images
-Then you must forward your router from port 5005 to port 80 on the Pi
+```
+Then you must forward your router from port 5005 to port 80 on the Pi  
+```
 run test.sh
 ```
 #How does this work
